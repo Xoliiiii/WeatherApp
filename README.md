@@ -5,3 +5,6 @@ With that being said this repository has been created to track that journey and 
 Follow this journey with me.
 
 The journey has started , and so far it has been good i would rather say that this journey has rather been smooth sailing but hey is day 2 i cant say much , it was been a freshers course for me andi am honestly loving it. Hopefully i keep this motivaton till the end
+
+Day 3:
+Today we learnt element of CSS and how to position it to our pages to customize and create a page that looks more presentable and unique. Today , i gained an ampile amountof information thathas left me to feel that i am able to create my own basic structure of a website
