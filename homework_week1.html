@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Homework</title>
+    <style>
+        p {font-size: 30px; text-align:center; }
+        h1 {font-family:Arial, Helvetica, sans-serif; color:#3565D6;text-align:center; }
+        h2 {color:black; padding-top:0; text-align:center; font-family:Arial, Helvetica, sans-serif;font-size:35px; margin-top:0;}
+        ul { text-align:center; list-style-type:none;}
+        li {margin: 0 auto}
+        button {display:block ; margin:0 auto ; border-radius:25px; padding:15px 24px; width:20%}
+        .min_temp {font-weight: 100}
+        .week_weather {font-size:20px; font-family:Arial, Helvetica, sans-serif;}
+        .tomorrow_temp {font-family: monospace; padding:20px;}
+        .saturday_temp {font-family: monospace; padding:20px;}
+        .sunday_temp {font-family: monospace;padding:20px;}
+        .tomorrow_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
+        .saturday_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
+        .sunday_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
+    </style>
+</head>
+<body>
+    <p>⛅</p>
+    <h1>
+        Currently 21° in Tokoyo
+    </h1>
+    <h2>
+        <span class="min_temp">
+            13°
+        </span>/23°
+    </h2>
+    <ul class="week_weather">
+    <div class="tomorrow_hover">
+        <div class="tomorrow_weather">
+        <li>
+            ⛈️Tomorrow
+        </li>
+        </div>
+    <div class="tomorrow_temp">
+        <li>
+            10°/
+            <strong>22°</strong>
+        </li>
+    </div>
+    </div>
+    <div class="saturday_hover">
+    <div class="saturday_weather">
+        <li>
+            ⛅Saturday
+        </li>
+    </div>
+    <div class="saturday_temp">
+        <li>
+            15°/
+            <strong>17°</strong>
+        </li>
+   </div> 
+   </div>
+   <div class="sunday_hover">
+    <div class="sunday_weather">
+        <li>
+            ☀️Sunday
+        </li>
+    </div>
+    <div class="sunday_temp">
+        <li>
+            25°/
+            <strong>28°</strong>
+        </li>
+    </div>
+    </div>
+    </ul>
+<button>Change city</button>
+</body>
+</html>
