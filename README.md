@@ -8,3 +8,6 @@ The journey has started , and so far it has been good i would rather say that th
 
 Day 3:
 Today we learnt element of CSS and how to position it to our pages to customize and create a page that looks more presentable and unique. Today , i gained an ampile amountof information thathas left me to feel that i am able to create my own basic structure of a website
+
+Week 1 : HTML & CSS
+This week was filled with an amplitude of knowledge allowing me to be able to create a replication of a weather webpage, it was an experience that left me confident at myskills asa coder and im excited for the journey ahead.
