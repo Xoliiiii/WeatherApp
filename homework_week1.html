@@ -10,16 +10,19 @@
         h1 {font-family:Arial, Helvetica, sans-serif; color:#3565D6;text-align:center; }
         h2 {color:black; padding-top:0; text-align:center; font-family:Arial, Helvetica, sans-serif;font-size:35px; margin-top:0;}
         ul { text-align:center; list-style-type:none;}
-        li {margin: 0 auto}
-        button {display:block ; margin:0 auto ; border-radius:25px; padding:15px 24px; width:20%}
+        h3 {margin: 0 auto; font-weight: bold; font-family:Arial, Helvetica, sans-serif; display:block }
+        button {display:block ; margin:0 auto ; border-radius:25px; padding:15px 24px; width:10%; background-color:#3565D6; color:white;border:1px solid #3565D6; box-shadow: 5px 5px 5px #F0F0F4;}
+        button:hover {transition:all 200ms ease-in-out; color:#3565D6; border:#3565D6 1px solid; background-color:white;}
+        strong {color:rgb(103, 102, 97); }
+        .temperatures {font-size: 20px;}
         .min_temp {font-weight: 100}
-        .week_weather {font-size:20px; font-family:Arial, Helvetica, sans-serif;}
         .tomorrow_temp {font-family: monospace; padding:20px;}
         .saturday_temp {font-family: monospace; padding:20px;}
         .sunday_temp {font-family: monospace;padding:20px;}
-        .tomorrow_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
-        .saturday_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
-        .sunday_hover:hover {max-width:400px; padding:10px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:22px;}
+        .tomorrow_hover:hover {max-width:400px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:20px 10px;display:block; margin: 0 auto;}
+        .saturday_hover:hover {max-width:400px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:20px 10px; display:block; margin: 0 auto;}
+        .sunday_hover:hover {max-width:400px; transition:all 200ms ease-in-out; opacity:1; color:black; border-radius:8px; background-color:#FEFBEF; padding:20px 10px; display: block; margin: 0 auto;}
+        .author {font-family:Arial, Helvetica, sans-serif; color:#D6D6D6; font-size: 25px; text-align:center;}
     </style>
 </head>
 <body>
@@ -32,47 +35,60 @@
             13°
         </span>/23°
     </h2>
-    <ul class="week_weather">
+    <ul>
     <div class="tomorrow_hover">
         <div class="tomorrow_weather">
         <li>
+        <h3> 
             ⛈️Tomorrow
+        </h3>
         </li>
         </div>
     <div class="tomorrow_temp">
         <li>
+            <p class="temperatures">
             10°/
             <strong>22°</strong>
+        </p>
         </li>
     </div>
     </div>
     <div class="saturday_hover">
     <div class="saturday_weather">
         <li>
+           <h3>
             ⛅Saturday
+        </h3> 
         </li>
     </div>
     <div class="saturday_temp">
         <li>
+            <p class="temperatures">
             15°/
             <strong>17°</strong>
+            </p>
         </li>
    </div> 
    </div>
    <div class="sunday_hover">
     <div class="sunday_weather">
         <li>
-            ☀️Sunday
+           <h3>
+             ☀️Sunday
+            </h3>
         </li>
     </div>
     <div class="sunday_temp">
         <li>
+            <p class="temperatures">
             25°/
             <strong>28°</strong>
+            </p>
         </li>
     </div>
     </div>
     </ul>
 <button>Change city</button>
+<p class="author">Coded by Xolisa Nunge</p>
 </body>
 </html>
