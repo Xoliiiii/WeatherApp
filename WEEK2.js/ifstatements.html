@@ -83,14 +83,9 @@
         </button>
     </section>
     <script>
-        let hometown = prompt ("Where is your hometown?");
-        alert (hometown);
-        let firstName = prompt ("What is your first name ?");
-        let lastName = prompt ("What is your last name?");
-        let fullName = firstName + " " + lastName
-        alert (fullName);
-
-       
+        let age = prompt ("How old are you? ")
+        if (age <= 18 ) {alert ("You cannot apply.");}
+        if (age >= 18) {alert ("You can apply to SheCodes.")}
     </script>
 </body>
 
