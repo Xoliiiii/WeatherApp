@@ -11,3 +11,7 @@ Today we learnt element of CSS and how to position it to our pages to customize 
 
 Week 1 : HTML & CSS
 This week was filled with an amplitude of knowledge allowing me to be able to create a replication of a weather webpage, it was an experience that left me confident at myskills asa coder and im excited for the journey ahead.
+
+Week 2 : Javascript 
+This week we learning Javascript and it has started with the internal javascript that is intergratedwithin HTML and it is going well so far and it is an interesting process that intrigues my mind on the fact that there is more than just html and css that go into making a page work in every sense and as well as allowing us to communicate with certain enginges within  a computer.
+
