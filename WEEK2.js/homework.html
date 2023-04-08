@@ -71,18 +71,21 @@
     <footer>
         Coded by Xolisa Nunge
     </footer>
-    <script>
+    <script> //Elemet that allows you to for JS and must always be placed after the HTML has been coded
+    //let allows you to initalize every variable that you want to give purpose/ function to 
         function updateHeading(newHeading){
             let heading = document.querySelector("h1")
             heading.innerHTML = newHeading
         }
-       
+
+       //the creation of different allows you to make your code readbale and allow you to identify bugs easily in your code
 
         function cityTemperature() {
             let city = prompt ("What city do you live in?");
             let temperature = prompt ("What is the current temperature?"); 
                 if(temperature <0){
                     updateHeading(
+                        //<br/> inserted allows you to main line break between two strings
                      "🥶<br/>Currently" +" "+ temperature+"°"+" "+ "in"+" "+ city);} else {
                         updateHeading(
                         "😎<br/>Currently" +" "+ temperature +"°"+" "+ "in" +" "+ city);
@@ -90,7 +93,7 @@
         }
 
     
-     let cityButton = document.querySelector("button");
+     let cityButton = document.querySelector("button"); //always remeber to  initialize a variable you want to give purpose to because you can view as if it is a shell
      cityButton.addEventListener("click",cityTemperature);
     </script>
   </html>
