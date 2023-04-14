@@ -15,3 +15,5 @@ This week was filled with an amplitude of knowledge allowing me to be able to cr
 Week 2 : Javascript 
 This week we learning Javascript and it has started with the internal javascript that is intergratedwithin HTML and it is going well so far and it is an interesting process that intrigues my mind on the fact that there is more than just html and css that go into making a page work in every sense and as well as allowing us to communicate with certain enginges within  a computer.
 
+Week 3: Final project with integation of HTML,CSS & JS
+The project indicated that i needed to create a website that incoporated the above mentioned things and it was honestly one of the best things in terms of my confidence in tech i regards to myself and what i can produce , just from that project i was able to see what i am capable of as well as the ideas in which i have in regards to the improvements i would want to make on that webpage.
