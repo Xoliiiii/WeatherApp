@@ -1,6 +1,6 @@
  h5 {
     position:relative;
-    top: 40px;
+    top: 30px;
 }
 
 .sun {
@@ -15,3 +15,8 @@
     left: 0;
 }
 
+.temp{
+    font-size:30px;
+    position:relative;
+    left:-40px;
+}
