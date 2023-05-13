@@ -1,22 +1,45 @@
- h5 {
-    position:relative;
-    top: 30px;
+ ul { 
+list-style-type:none;
+margin:0;
+padding:0;
 }
 
-.sun {
-    width:80px;
-   
-
-
+body {
+   font-family: 'IBM Plex Mono', monospace;
 }
 
-.search-engine {
-    position:relative;
-    left: 0;
+button{
+    background:blue;
+    color:white;
+    border: 1px blue solid;
+    transition:all 100ms ease-in-out;
 }
 
-.temp{
-    font-size:30px;
-    position:relative;
-    left:-40px;
+button:hover{
+    background:white;
+    color:blue;
+}
+
+.figure {
+    position:absolute;
+    right: 80px;
+    top:55px;
+}
+
+.card{
+    padding:30px;
+    margin: 50px; 
+}
+
+.weather-icons{
+    padding: 10px
+}
+
+.tempHigh{
+    margin:0;
+}
+
+.tempLow{
+    margin:0;
+    color:grey;
 }
