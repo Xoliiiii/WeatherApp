@@ -1,45 +1,61 @@
- ul { 
-list-style-type:none;
-margin:0;
-padding:0;
-}
-
 body {
-   font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
+    color: black;
+    font-weight: 400;
+    text-align: center;
 }
 
-button{
-    background:blue;
-    color:white;
-    border: 1px blue solid;
-    transition:all 100ms ease-in-out;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-button:hover{
-    background:white;
-    color:blue;
+h1 {
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.figure {
-    position:absolute;
-    right: 80px;
-    top:100px;
+p {
+    font-size: 20px;
 }
 
-.card{
-    padding:30px;
-    margin: 50px; 
+.card-body {
+    background-color: pink;
+    width: 800px;
+    padding: 50px;
 }
 
-.weather-icons{
-    padding: 10px
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-block: none;
 }
 
-.tempHigh{
-    margin:0;
+.button {
+    font-weight: 400px;
+    background-color: hotpink;
+    font-family: "IBM Plex Mono", monospace;
+    padding: 4px;
+    width: 80px;
+    border: 1px solid hotpink;
+    transition: 100ms ease-in-out;
+    cursor: pointer;
 }
 
-.tempLow{
-    margin:0;
-    color:grey;
+.search {
+    padding: 4px;
+    font-family: "IBM Plex Mono", monospace;
+    color: black;
+    border: 1px pink solid;
+}
+
+.button:hover {
+    background: white;
+    color: pink;
+    border: 1px pink solid;
 }
