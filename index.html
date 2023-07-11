@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/8d6663b4de.js" crossorigin="anonymous"></script>
+    <!--CSS styling-->
+    <link rel="stylesheet" href="src/style.css">
+    <!--Axios-->
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+<title>Weather App</title>
+</head>
+
+<body>
+    <!--Weather app body-->
+    <div class="card">
+        <div class="card-body">
+            <!--Search Engine-->
+            <form id="search-form">
+                <section class="searchEngine">
+                    <input type="text" id="city-name" placeholder="Enter city here..." class="search" autofocus>
+                    <input type="submit" value="Search" class="button" />
+                    <input type="submit" value="Current" class="button" id="current-weather" />
+                </section>
+            </form>
+            <br />
+
+            <section class="currentWeather">
+                <!--Current Date , Time , Temp-->
+                <ul>
+                    <li>
+                        <h1>Port Elizabeth</h1>
+                    </li>
+                    <p>Tuesday , 18:00</p>
+                    <li>
+                        <div class="row">
+                            <div class="col">
+                                <div class="clearfix">
+                                    <div class="float-left">
+                                        <h2>
+                                            <span class="temperature" id="temperature"></span><span
+                                                class="units">°C</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+            <hr />
+
+            <!--5 DAY FORECAST-->
+            <h3>5 DAY FORECAST</h3>
+            <div class="row">
+                <div class="col">
+                    <img src="src/img/cloud-sun.png" alt="cloudy" width="50px">
+                    <h4>15℃</h4>
+                </div>
+                <div class="col">
+                    <img src="src/img/light-rain.png" alt="rain" width="50px">
+                    <h4>15℃</h4>
+                </div>
+                <div class="col">
+                    <img src="src/img/cloud.png" alt="cloudy" width="50px">
+                    <h4>15℃</h4>
+                </div>
+                <div class="col">
+                    <img src="src/img/rain-cloud.png" alt="raining" width="50px">
+                    <h4>15℃</h4>
+                </div>
+                <div class="col">
+                    <img src="src/img/sun2.png" alt="sunny" width="50px">
+                    <h4>15℃</h4>
+                </div>
+            </div>
+        </div>
+        <!--End of 5 Day Forecast-->
+    </div>
+    </div>
+    <footer>
+        <h5>
+            <a href="https://codesandbox.io/s/xolisa-weather-app-he0jso?file=/index.html">Open-sourced </a>
+            code by Xoli
+        </h5>
+    </footer>
+
+    <script src="media/javascript/index.js"></script>
+</body>
+
+</html>
