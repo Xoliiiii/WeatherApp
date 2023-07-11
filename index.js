@@ -1,33 +1,5 @@
 let now = new Date();
 let p = document.querySelector("p");
-let weekDay = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday"];
-let day = weekDay[now.getDay()];
-let hours = now.getHours();
-let minutes = now.getMinutes();
-
-p.innerHTML = `${day} , ${hours}:${minutes}`;
-
-//function search(event){
-//event.preventDefault();
-//let searchInput = document.querySelector("#city-name");
-//let h1 = document.querySelector("h1")
-//h1.innerHTML = `${searchInput.value}`;
-//}
-
-//let form = document.querySelector ("#search-form");
-//form.addEventListener("submit",search)
-
-//Weather Api 
-
-function search(event) {
-  event.preventDefault();
-  let city = document.querySelector("#city-name");
-  let h1 = document.querySelector("h1");
-  h1.innerHTML = `${city.value}`;
-}
-
-let now = new Date();
-let p = document.querySelector("p");
 let weekDay = [
   "Sunday",
   "Monday",
@@ -91,3 +63,4 @@ function displayingWeather() {
   }
 }
 displayingWeather();
+
