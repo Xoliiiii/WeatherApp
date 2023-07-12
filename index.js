@@ -19,7 +19,7 @@ p.innerHTML = `${day} , ${hours}:${minutes}`;
 function search(event) {
   event.preventDefault();
   let city = document.querySelector("#city-name");
-  let result = city.toUpperCase();
+
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${city.value}`;
   searchCity(city.value);
