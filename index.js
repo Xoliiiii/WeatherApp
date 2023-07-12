@@ -12,14 +12,13 @@ let weekDay = [
 let day = weekDay[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getUTCMinutes();
-
+//hi
 p.innerHTML = `${day} , ${hours}:${minutes}`;
 
 //Weather Api
 function search(event) {
   event.preventDefault();
   let city = document.querySelector("#city-name");
-
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${city.value}`;
   searchCity(city.value);
