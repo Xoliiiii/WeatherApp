@@ -17,9 +17,8 @@ p.innerHTML = `${day} , ${hours}:${minutes}`;
 
 //Weather Api
 function search(event) {
-  event.preventDefault();
+   event.preventDefault();
   let city = document.querySelector("#city-name");
-  city.value.toUpperCase();
   let h1 = document.querySelector("h1");
   h1.innerHTML = `${city.value}`;
   searchCity(city.value);
